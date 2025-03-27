@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PlantAppMAUI.Pages.HomePage"
+             Title="HomePage">
+    <VerticalStackLayout>
+        <Label 
+            Text="Home Page"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button 
+            Text="Home Settings"
+            Command="{Binding GoToHomeSettingsCommand}" />
+        <Button 
+            Text="Show Plant"
+            Command="{Binding GoToPlantDisplayCommand}" />
+        <Button 
+            Text="Create Plant"
+            Command="{Binding GoToPlantCreateCommand}" />
+    </VerticalStackLayout>
+</ContentPage>

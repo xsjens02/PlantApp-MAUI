@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PlantAppMAUI.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PlantAppMAUI"
+    xmlns:pages="clr-namespace:PlantAppMAUI.Pages"
+    Shell.FlyoutBehavior="Disabled"
+    Title="PlantAppMAUI">
+
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate pages:LoginPage}"
+        Route="LoginPage" />
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate pages:HomePage}"
+        Route="HomePage" />
+    <ShellContent
+        Title="HomeSettings"
+        ContentTemplate="{DataTemplate pages:HomeSettingsPage}"
+        Route="HomeSettingsPage" />
+    <ShellContent
+        Title="PlantDisplay"
+        ContentTemplate="{DataTemplate pages:PlantDisplayPage}"
+        Route="PlantDisplayPage" />
+    <ShellContent
+        Title="PlantCreate"
+        ContentTemplate="{DataTemplate pages:PlantCreatePage}"
+        Route="PlantCreatePage" />
+    <ShellContent
+        Title="PlantSettings"
+        ContentTemplate="{DataTemplate pages:PlantSettingsPage}"
+        Route="PlantSettingsPage" />
+
+</Shell>
