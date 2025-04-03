@@ -9,28 +9,21 @@
     Title="PlantAppMAUI">
 
     <ShellContent
-        Title="Login"
         ContentTemplate="{DataTemplate pages:LoginPage}"
         Route="LoginPage" />
     <ShellContent
-        Title="Home"
         ContentTemplate="{DataTemplate pages:HomePage}"
         Route="HomePage" />
     <ShellContent
-        Title="HomeSettings"
         ContentTemplate="{DataTemplate pages:HomeSettingsPage}"
         Route="HomeSettingsPage" />
     <ShellContent
-        Title="PlantDisplay"
         ContentTemplate="{DataTemplate pages:PlantDisplayPage}"
         Route="PlantDisplayPage" />
     <ShellContent
-        Title="PlantCreate"
         ContentTemplate="{DataTemplate pages:PlantCreatePage}"
         Route="PlantCreatePage" />
     <ShellContent
-        Title="PlantSettings"
         ContentTemplate="{DataTemplate pages:PlantSettingsPage}"
         Route="PlantSettingsPage" />
-
 </Shell>
