@@ -12,6 +12,7 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Button
+                Text="Choose Image"
                 Command="{Binding PickImageFileCommand}" />
         </HorizontalStackLayout>
 

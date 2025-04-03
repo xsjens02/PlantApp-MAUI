@@ -14,6 +14,7 @@ namespace PlantAppMAUI.ViewModels
 
         [RelayCommand]
         private async Task GoToHome() => await Shell.Current.GoToAsync("//HomePage");
+
         [RelayCommand]
         private async Task PickImageFile()
         {
@@ -21,7 +22,6 @@ namespace PlantAppMAUI.ViewModels
             {
                 var selectedFile = await FilePicker.Default.PickAsync(new PickOptions
                 {
-                    PickerTitle = "Choose a file",
                     FileTypes = FilePickerFileType.Images,
                 });
 
