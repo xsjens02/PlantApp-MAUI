@@ -11,6 +11,8 @@
                 Text="Plant Create Page"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
+            <Button
+                Command="{Binding PickImageFileCommand}" />
         </HorizontalStackLayout>
 
         
