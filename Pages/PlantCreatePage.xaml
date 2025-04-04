@@ -12,6 +12,7 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Button
+                
                 Command="{Binding PickImageFileCommand}" />
             <Button 
                 Command="{Binding TakePhotoCommand}"/>
