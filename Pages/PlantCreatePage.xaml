@@ -12,9 +12,10 @@
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
             <Button
-                
+                Text="Choose Image"
                 Command="{Binding PickImageFileCommand}" />
             <Button 
+                Text="Take Photo"
                 Command="{Binding TakePhotoCommand}"/>
         </HorizontalStackLayout>
 
